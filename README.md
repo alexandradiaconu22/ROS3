@@ -23,17 +23,17 @@ This repository contains code for training and using speech-to-text models based
 
 | Model Type      | Dataset / Notes                  | Hugging Face Link |
 |-----------------|---------------------------------|-----------------|
-| **Wav2Vec2**    | RO All 34                        | [Link](https://huggingface.co/alexandradiaconu/wav2vec2-ft-ro-all-34) |
-| **Wav2Vec2**    | RO ProTV 17                      | [Link](https://huggingface.co/alexandradiaconu/wav2vec2-ft-ro-protv-17) |
-| **Wav2Vec2**    | RO Observator 17                 | [Link](https://huggingface.co/alexandradiaconu/wav2vec2-ft-ro-observator-17) |
-| **Whisper Small** | 34 All2                         | [Link](https://huggingface.co/alexandradiaconu/whisper-small-34-all2) |
-| **Whisper Small** | ProTV 17                        | [Link](https://huggingface.co/alexandradiaconu/whisper-protv-17) |
-| **Whisper Small** | Observator 17                   | [Link](https://huggingface.co/alexandradiaconu/whisper-observator-17) |
-| **Whisper Small** | 34 Echo                         | [Link](https://huggingface.co/alexandradiaconu/whisper-small-echo-34) |
-| **Whisper Small** | 34 Mix                          | [Link](https://huggingface.co/alexandradiaconu/whisper-small-34-mix) |
-| **Whisper Small** | 17 ProTV Mix                     | [Link](https://huggingface.co/alexandradiaconu/whisper-small-17-protv-mix) |
-| **Whisper Small** | 17 ProTV ElevenLabs              | [Link](https://huggingface.co/alexandradiaconu/whisper-small-17-protv-elevenlabs) |
-| **Whisper Large** | 34 All New3                      | [Link](https://huggingface.co/alexandradiaconu/whisper-large-all-34-new3) |
+| **Wav2Vec2**    | W2V2+ROS3                        | [Link](https://huggingface.co/alexandradiaconu/wav2vec2-ft-ro-all-34) |
+| **Wav2Vec2**    | W2V2+PROTV                     | [Link](https://huggingface.co/alexandradiaconu/wav2vec2-ft-ro-protv-17) |
+| **Wav2Vec2**    | W2V2+Antena1                | [Link](https://huggingface.co/alexandradiaconu/wav2vec2-ft-ro-observator-17) |
+| **Whisper Small** | WhisperS+ROS3                       | [Link](https://huggingface.co/alexandradiaconu/whisper-small-34-all2) |
+| **Whisper Small** | WhisperS+PROTV                        | [Link](https://huggingface.co/alexandradiaconu/whisper-protv-17) |
+| **Whisper Small** | WhisperS+Antena1                    | [Link](https://huggingface.co/alexandradiaconu/whisper-observator-17) |
+| **Whisper Small** | WhisperS+Echo+ROS3                         | [Link](https://huggingface.co/alexandradiaconu/whisper-small-echo-34) |
+| **Whisper Small** | WhisperS+PROTV(Synthetic)+Antena1(Natural)                          | [Link](https://huggingface.co/alexandradiaconu/whisper-small-34-mix) |
+| **Whisper Small** | WhisperS+PROTV(50% Synthetic+ 50% Natural)                | [Link](https://huggingface.co/alexandradiaconu/whisper-small-17-protv-mix) |
+| **Whisper Small** | WhisperS+PROTV(Synthetic)              | [Link](https://huggingface.co/alexandradiaconu/whisper-small-17-protv-elevenlabs) |
+| **Whisper Large** | WhisperL+ROS3                      | [Link](https://huggingface.co/alexandradiaconu/whisper-large-all-34-new3) |
 
 ## Requirements
 
